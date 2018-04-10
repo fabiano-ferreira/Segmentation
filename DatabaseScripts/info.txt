@@ -1,0 +1,1 @@
+Folder with all Database Scripts (Tables, Default Data and Stored Procedures).
