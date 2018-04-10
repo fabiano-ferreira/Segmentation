@@ -1,0 +1,70 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="UI.Principal" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<%@ Register src="../Controles/MenuTopo.ascx" tagname="MenuTopo" tagprefix="uc1" %>
+<!--Force IE6 into quirks mode with this comment tag-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+
+<!-- **** DESIGN INFORMATION: start head **** --> 
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Editora Saraiva - Segmentação</title>
+<link href="../Css/Css.css" rel="stylesheet" type="text/css" />
+<link href="../Css/MenuBar.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="../Js/Includes.js"></script>
+<script type="text/javascript" src="../Js/menu-for-applications.js"></script>
+</head>
+<!-- **** DESIGN INFORMATION: end /head **** --> 
+
+
+<!-- **** DESIGN INFORMATION: BODY **** --> 
+<body>
+<!-- *******************************************************************************
+ DESIGN INFORMATION: start div top 
+******************************************************************************** -->
+<div id="framecontent">
+	<div id="toplogo"><img src="../Images/topo/logo.jpg"></div>
+    <div id="toplogin">
+    <ul>
+    	<li><b>Rodrigo Nobrega<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></b></li>
+        <li>W IT Solutions</li>
+    </ul>
+    </div>   
+    <div id="topmenu"><uc1:MenuTopo ID="MenuTopo1" runat="server" /></div>
+</div>    
+<!-- *******************************************************************************
+ DESIGN INFORMATION: start div top 
+******************************************************************************** -->
+
+<!-- *******************************************************************************
+ DESIGN INFORMATION: start div content 
+******************************************************************************** -->  
+<div id="maincontent">
+  <div class="contentform">
+	
+	 <!-- **** DESIGN INFORMATION: START CONTENT PAGE **** -->
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder> 
+     <!-- **** DESIGN INFORMATION: END CONTENT PAGE **** -->
+   
+  </div>
+</div>
+<!-- *******************************************************************************
+ DESIGN INFORMATION: start div content 
+******************************************************************************** -->  
+	
+	<script type="text/javascript">
+	var menuModel = new DHTMLSuite.menuModel();
+	DHTMLSuite.configObj.setCssPath('css/');
+	menuModel.addItemsFromMarkup('menuModel');
+	menuModel.setMainMenuGroupWidth(00);	
+	menuModel.init();
+	var menuBar = new DHTMLSuite.menuBar();
+	menuBar.addMenuItems(menuModel);
+	menuBar.setTarget('menuDiv');
+	menuBar.init();	
+	</script>
+
+</body>
+</html>
+<!-- **** DESIGN INFORMATION: BODY **** -->

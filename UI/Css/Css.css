@@ -1,0 +1,325 @@
+* {
+	margin:0;
+	padding:0
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	height: 100%;
+	max-height: 100%;
+	scrollbar-base-color: #FFFFFF;
+	scrollbar-arrow-color: #6699cc;
+	scrollbar-3dlight-color: #6699cc;
+	scrollbar-darkshadow-color: #6699cc;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-track-color: #d6e8ff;
+}
+.modal {
+	background-color:White;
+}
+ul {
+	list-style:none;
+}
+#mensagemerro {
+	font:11px Tahoma, Verdana, Arial;
+	color:#FF0000;
+	background-color:#ffdfe0;
+	width:100%;
+	height:21px;
+	float:left;
+	border-bottom:solid 1px #ff9999;
+	display:none;
+}
+#alerta {
+	font:11px Tahoma, Verdana, Arial;
+	color:#FF0000;
+	background-color:#ffdfe0;
+	width:100%;
+	height:21px;
+	float:left;
+	border-bottom:solid 1px #ff9999;
+}
+/*******************************************************************************
+ DESIGN INFORMATION FRAMES: describes frames
+ *******************************************************************************/
+#framecontent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 86px; /*Height of frame div*/
+	overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+	background-image:url(../Images/topo/background.gif);
+	background-repeat:repeat-x;
+	color: white;
+}
+#maincontent {
+	position: fixed;
+	top: 86px; /*Set top value to HeightOfFrameDiv*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	background-image:url(../Images/display/background.gif);
+	background-attachment:fixed;
+}
+.innertube {
+	margin: 0px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+	background-color:#FFFFFF;
+	height:100%;
+}
+.contentform {
+	margin: 5px; /*Margins for inner DIV inside each DIV */
+	background-color:#eaf3ff;
+	height:98%;
+	border:solid 1px #6693cf;
+}
+.contentformpopup {
+	background-color:#eaf3ff;
+	margin: 5px; /*Margins for inner DIV inside each DIV */
+	width:600px;
+	height:auto;
+	border:solid 1px #6693cf;
+}
+* html body { /*IE6 hack*/
+	padding: 86px 0 0 0; /*Set value to (HeightOfFrameDiv 0 0 0)*/
+}
+* html #maincontent { /*IE6 hack*/
+	height: 100%;
+	width: 100%;
+}
+/*******************************************************************************
+ DESIGN INFORMATION TOP: describes top
+ *******************************************************************************/
+#toplogo {
+	width:735px;
+	height:58px;
+	float:left;
+}
+#toplogin {
+	font:11px Tahoma, Verdana, Arial;
+	width:180px;
+	height:53px;
+	float:right;
+	text-align:right;
+	padding-right:20px;
+	padding-top:5px;
+	color:#c6e8ff;
+}
+#topmenu {
+	margin:0;
+	width:100%;
+	height:28px;
+	background-image:url(../Images/menu_strip_bg_gray.gif);
+	float:left;
+	clear:both;
+}
+/*******************************************************************************
+ DESIGN INFORMATION FORM: describes form
+ *******************************************************************************/
+ #formtitulo {
+	font:bold 12px Tahoma, Verdana, Arial;
+	background-image:url(../Images/app_titlebar.gif);
+	background-repeat:repeat-x;
+	width:100%;
+	height:26px;
+	line-height:20px;
+	float:left;
+}
+#botoes {
+	background-image: url(../Images/Display/botoes_bkg.gif);
+	background-repeat:repeat-x;
+	width:100%;
+	height:26px;
+	line-height:20px;
+	float:left;
+}
+.botoesgerais {
+	padding-top:5px;
+	padding-left:5px;
+}
+#formgeral {
+	width:100%;
+	height:auto;
+	float:left;/*background-color: #cee1fa;*/
+}
+#formfont {
+	font:11px Tahoma, Verdana, Arial;
+	color:#000000;
+}
+.txtbox {
+	font:12px Tahoma, Verdana, Arial;
+	border:solid 1px #6699cc;
+	height:18px;
+}
+/*******************************************************************************
+ DESIGN INFORMATION LOGIN: describes login
+ *******************************************************************************/
+ #logincontent {
+	position: fixed;
+	top:86px; /*Set top value to HeightOfFrameDiv*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	background-image:url(../Images/display/background.gif);
+	background-attachment:fixed;
+}
+.logincontentform {
+	margin: 5px; /*Margins for inner DIV inside each DIV */
+	background-color:#eaf3ff;
+	height:98%;
+	border:solid 1px #6693cf;
+}
+#logintitulo {
+	font:bold 14px Tahoma, Verdana, Arial;
+	color:#15428b;
+	background-image:url(../Images/app_titlebar.gif);
+	background-repeat:repeat-x;
+	width:100%;
+	height:26px;
+	line-height:23px;
+	float:left;
+}
+#loginimagem {
+	margin-top:30px;
+	margin-left:20px;
+	width:87px;
+	height:114px;
+	float:left;
+}
+#loginusuario {
+	font:12px Tahoma, Verdana, Arial;
+	color:#15428b;
+	margin-top:25px;
+	margin-left:20px;
+	width:210px;
+	height:100px;
+	float:left;
+}
+#loginusuario li {
+	padding-top:5px;
+}
+.loginerro {
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:3px;
+}
+.loginbtn {
+	margin-left:120px;
+	cursor:pointer;
+}
+/*******************************************************************************
+ DESIGN INFORMATION GRID: describes color, scheme 
+*******************************************************************************/
+.grid_tittle {
+	font:11px Tahoma, Verdana, Arial;
+	padding-left:5px;
+	color:#000;
+	background-image: url(../Images/Display/grid_titulo_background.gif);
+	background-position:right;
+	background-repeat:repeat-x;
+	height:20px;
+	padding-bottom:3px;
+}
+.grid_tittle_div {
+	font:11px Tahoma, Verdana, Arial;
+	padding-left:5px;
+	color:#000;
+	background-image:url(../Images/Display/grid_titulo_div.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	height:20px;
+	padding-bottom:3px;
+}
+.grid_line_01 {
+	font:11px Tahoma, Verdana, Arial;
+	color:#000;
+	background-image: url(../Images/Display/grid_background.gif);
+	background-repeat:repeat-x;
+	height:21px;
+}
+.grid_line_02 {
+	font:11px Tahoma, Verdana, Arial;
+	color:#000000;
+	background-image: url(../Images/Display/grid_background.gif);
+	background-repeat:repeat-x;
+	height:21px;
+}
+#gridform {
+	margin:0 auto;
+	width:100%;
+	height:auto;
+	float:left;
+}
+/*******************************************************************************
+ DESIGN INFORMATION MODAL: describes color, scheme 
+*******************************************************************************/
+.modalBackground {
+	background-color: #000;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+/*******************************************************************************
+ DESIGN INFORMATION MODAL: treeview
+*******************************************************************************/
+#treeview {
+	width:100%;
+	height:293px;
+	border:solid 1px #6699cc;
+	overflow:auto;
+}
+/*******************************************************************************
+ DESIGN INFORMATION MODAL: teste
+*******************************************************************************/
+#botoesform 
+{
+	margin-top:4px;
+	margin-left:7px;
+	width:80%;
+	height:21px;
+	float:left;
+}
+#botoesform li 
+{
+	float:left;
+	height:21px;
+}
+#botoesform li a 
+{
+	font:11px Arial, Helvetica, sans-serif;
+	color:#15428b;
+	text-decoration:none;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:3px;
+	padding-bottom:4px;
+	height:18px;
+}
+#botoesform li a:hover
+{
+	font:11px Arial, Helvetica, sans-serif;
+	color:#15428b;
+	text-decoration:none;
+	background-image: url(../images/app_titlebar_hover.gif);
+	background-repeat:repeat-x;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:3px;
+	border:solid 1px #ffdb6c;
+	height:18px;
+}
+.separator 
+{
+	margin-top:1px;
+	height:15px;
+	background-image:url(../Images/botoes_div.gif);
+	background-repeat:no-repeat;
+	width:6px;
+	padding-left:2px;
+}

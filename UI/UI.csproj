@@ -1,0 +1,495 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB8C85A2-E658-4E17-8166-ADB92230F822}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30512.20315, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft ASP.NET\ASP.NET 2.0 AJAX Extensions\AjaxControlToolkitBinary\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\Css.css" />
+    <Content Include="Css\MenuBar.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\app_titlebar.gif" />
+    <Content Include="Images\app_titlebar_hover.gif" />
+    <Content Include="Images\app_titlebar_msdown.gif" />
+    <Content Include="Images\app_titleicon.gif" />
+    <Content Include="Images\Display\background.gif" />
+    <Content Include="Images\div_titulo.gif" />
+    <Content Include="Images\Login\btn_login.png" />
+    <Content Include="Images\Login\login.png" />
+    <Content Include="Images\Login\login_erro.png" />
+    <Content Include="Images\menu-bar-gradient-gray.gif" />
+    <Content Include="Images\menu-bar-right-arrow.png" />
+    <Content Include="Images\menu_strip_bg_gray.gif" />
+    <Content Include="Images\menu_strip_down_arrow.png" />
+    <Content Include="Images\menu_strip_separator-gray.gif" />
+    <Content Include="Images\Topo\background.gif" />
+    <Content Include="Images\Topo\logo.jpg" />
+    <Content Include="TemplateIndex.aspx" />
+    <Content Include="Js\Includes.js" />
+    <Content Include="Js\Login.js" />
+    <Content Include="Js\menu-for-applications.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controles\MenuTopo.ascx.cs">
+      <DependentUpon>MenuTopo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\MenuTopo.ascx.designer.cs">
+      <DependentUpon>MenuTopo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\CampanhaAssociarUsuario.aspx.cs">
+      <DependentUpon>CampanhaAssociarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\CampanhaAssociarUsuario.aspx.designer.cs">
+      <DependentUpon>CampanhaAssociarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\CampanhaManutencao.aspx.cs">
+      <DependentUpon>CampanhaManutencao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\CampanhaManutencao.aspx.designer.cs">
+      <DependentUpon>CampanhaManutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\ClasseVariavelManutencao.aspx.cs">
+      <DependentUpon>ClasseVariavelManutencao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\ClasseVariavelManutencao.aspx.designer.cs">
+      <DependentUpon>ClasseVariavelManutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\CriterioAtratividade.aspx.cs">
+      <DependentUpon>CriterioAtratividade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\CriterioAtratividade.aspx.designer.cs">
+      <DependentUpon>CriterioAtratividade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\CriterioFator.aspx.cs">
+      <DependentUpon>CriterioFator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\CriterioFator.aspx.designer.cs">
+      <DependentUpon>CriterioFator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\CriterioManutencao.aspx.cs">
+      <DependentUpon>CriterioManutencao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\CriterioManutencao.aspx.designer.cs">
+      <DependentUpon>CriterioManutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\CriterioVariavel.aspx.cs">
+      <DependentUpon>CriterioVariavel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\CriterioVariavel.aspx.designer.cs">
+      <DependentUpon>CriterioVariavel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\LinhaNegocio.aspx.cs">
+      <DependentUpon>LinhaNegocio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\LinhaNegocio.aspx.designer.cs">
+      <DependentUpon>LinhaNegocio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\ModeloAssociarUsuario.aspx.cs">
+      <DependentUpon>ModeloAssociarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\ModeloAssociarUsuario.aspx.designer.cs">
+      <DependentUpon>ModeloAssociarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\ModeloManutencao.aspx.cs">
+      <DependentUpon>ModeloManutencao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\ModeloManutencao.aspx.designer.cs">
+      <DependentUpon>ModeloManutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\FDP.aspx.cs">
+      <DependentUpon>FDP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\FDP.aspx.designer.cs">
+      <DependentUpon>FDP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\ProdutosAtratividade.aspx.cs">
+      <DependentUpon>ProdutosAtratividade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\ProdutosAtratividade.aspx.designer.cs">
+      <DependentUpon>ProdutosAtratividade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\ProdutosManutencao.aspx.cs">
+      <DependentUpon>ProdutosManutencao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\ProdutosManutencao.aspx.designer.cs">
+      <DependentUpon>ProdutosManutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\ProdutosManutencaoCategorias.aspx.cs">
+      <DependentUpon>ProdutosManutencaoCategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\ProdutosManutencaoCategorias.aspx.designer.cs">
+      <DependentUpon>ProdutosManutencaoCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosBasicos\TipoSegmentoMercado.aspx.cs">
+      <DependentUpon>TipoSegmentoMercado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosBasicos\TipoSegmentoMercado.aspx.designer.cs">
+      <DependentUpon>TipoSegmentoMercado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosVariaveis\FatorManutencao.aspx.cs">
+      <DependentUpon>FatorManutencao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosVariaveis\FatorManutencao.aspx.designer.cs">
+      <DependentUpon>FatorManutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosVariaveis\FatorAtratividadeSegmento.aspx.cs">
+      <DependentUpon>FatorAtratividadeSegmento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosVariaveis\FatorAtratividadeSegmento.aspx.designer.cs">
+      <DependentUpon>FatorAtratividadeSegmento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosVariaveis\FatorPosicionamentoSegmento.aspx.cs">
+      <DependentUpon>FatorPosicionamentoSegmento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosVariaveis\FatorPosicionamentoSegmento.aspx.designer.cs">
+      <DependentUpon>FatorPosicionamentoSegmento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosVariaveis\GeracaoSegmentos.aspx.cs">
+      <DependentUpon>GeracaoSegmentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosVariaveis\GeracaoSegmentos.aspx.designer.cs">
+      <DependentUpon>GeracaoSegmentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosVariaveis\SegmentacaoClientesImportados.aspx.cs">
+      <DependentUpon>SegmentacaoClientesImportados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosVariaveis\SegmentacaoClientesImportados.aspx.designer.cs">
+      <DependentUpon>SegmentacaoClientesImportados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosVariaveis\VariavelManutencao.aspx.cs">
+      <DependentUpon>VariavelManutencao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosVariaveis\VariavelManutencao.aspx.designer.cs">
+      <DependentUpon>VariavelManutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DadosVariaveis\VersaoFatorPosicionamento.aspx.cs">
+      <DependentUpon>VersaoFatorPosicionamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DadosVariaveis\VersaoFatorPosicionamento.aspx.designer.cs">
+      <DependentUpon>VersaoFatorPosicionamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Importacao\Clientes.aspx.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Importacao\Clientes.aspx.designer.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Menu.asmx.cs">
+      <DependentUpon>Menu.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\ClientesSegmento.aspx.cs">
+      <DependentUpon>ClientesSegmento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ClientesSegmento.aspx.designer.cs">
+      <DependentUpon>ClientesSegmento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\ConfiguracaoGrafico.aspx.cs">
+      <DependentUpon>ConfiguracaoGrafico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ConfiguracaoGrafico.aspx.designer.cs">
+      <DependentUpon>ConfiguracaoGrafico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\MatrizSaida.aspx.cs">
+      <DependentUpon>MatrizSaida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\MatrizSaida.aspx.designer.cs">
+      <DependentUpon>MatrizSaida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\ManutencaoPerfil.aspx.cs">
+      <DependentUpon>ManutencaoPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguranca\ManutencaoPerfil.aspx.designer.cs">
+      <DependentUpon>ManutencaoPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\ManutencaoUsuario.aspx.cs">
+      <DependentUpon>ManutencaoUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguranca\ManutencaoUsuario.aspx.designer.cs">
+      <DependentUpon>ManutencaoUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\PermissaoPerfil.aspx.cs">
+      <DependentUpon>PermissaoPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguranca\PermissaoPerfil.aspx.designer.cs">
+      <DependentUpon>PermissaoPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\PermissaoUsuario.aspx.cs">
+      <DependentUpon>PermissaoUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguranca\PermissaoUsuario.aspx.designer.cs">
+      <DependentUpon>PermissaoUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateIndex.aspx.cs">
+      <DependentUpon>TemplateIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TemplateIndex.aspx.designer.cs">
+      <DependentUpon>TemplateIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal\Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TemplateForm.aspx.cs">
+      <DependentUpon>TemplateForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TemplateForm.aspx.designer.cs">
+      <DependentUpon>TemplateForm.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{AEB78486-73F1-4590-9D9D-5C1F5B178197}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VO\VO.csproj">
+      <Project>{75CFDD2F-7852-4844-8EDE-34D5C9BC491C}</Project>
+      <Name>VO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AjaxControlToolkit.pdb" />
+    <Content Include="bin\BLL.dll" />
+    <Content Include="bin\BLL.pdb" />
+    <Content Include="bin\DAL.dll" />
+    <Content Include="bin\DAL.pdb" />
+    <Content Include="bin\LoreSoft.MathExpressions.dll" />
+    <Content Include="bin\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\UI.dll" />
+    <Content Include="bin\UI.pdb" />
+    <Content Include="bin\VO.dll" />
+    <Content Include="bin\VO.pdb" />
+    <Content Include="Controles\MenuTopo.ascx" />
+    <Content Include="DadosBasicos\CampanhaAssociarUsuario.aspx" />
+    <Content Include="DadosBasicos\CampanhaManutencao.aspx" />
+    <Content Include="DadosBasicos\ClasseVariavelManutencao.aspx" />
+    <Content Include="DadosBasicos\CriterioAtratividade.aspx" />
+    <Content Include="DadosBasicos\CriterioFator.aspx" />
+    <Content Include="DadosBasicos\CriterioManutencao.aspx" />
+    <Content Include="DadosBasicos\CriterioVariavel.aspx" />
+    <Content Include="DadosBasicos\LinhaNegocio.aspx" />
+    <Content Include="DadosBasicos\ModeloAssociarUsuario.aspx" />
+    <Content Include="DadosBasicos\ModeloManutencao.aspx" />
+    <Content Include="DadosBasicos\FDP.aspx" />
+    <Content Include="DadosBasicos\ProdutosAtratividade.aspx" />
+    <Content Include="DadosBasicos\ProdutosManutencao.aspx" />
+    <Content Include="DadosBasicos\ProdutosManutencaoCategorias.aspx" />
+    <Content Include="DadosBasicos\TipoSegmentoMercado.aspx" />
+    <Content Include="DadosVariaveis\FatorManutencao.aspx" />
+    <Content Include="DadosVariaveis\FatorAtratividadeSegmento.aspx" />
+    <Content Include="DadosVariaveis\FatorPosicionamentoSegmento.aspx" />
+    <Content Include="DadosVariaveis\GeracaoSegmentos.aspx" />
+    <Content Include="DadosVariaveis\SegmentacaoClientesImportados.aspx" />
+    <Content Include="DadosVariaveis\VariavelManutencao.aspx" />
+    <Content Include="DadosVariaveis\VersaoFatorPosicionamento.aspx" />
+    <Content Include="Images\adicionar_todos.gif" />
+    <Content Include="Images\botoes_div.gif" />
+    <Content Include="Images\Display\botoes_bkg.gif" />
+    <Content Include="Images\Display\grid_background.gif" />
+    <Content Include="Images\Display\grid_titulo_background.gif" />
+    <Content Include="Images\Display\grid_titulo_div.gif" />
+    <Content Include="Images\form_separator.gif" />
+    <Content Include="Images\Icones\adicionar.gif" />
+    <Content Include="Images\Icones\adicionar_item.gif" />
+    <Content Include="Images\Icones\adicionar_todos.gif" />
+    <Content Include="Images\Icones\associar.gif" />
+    <Content Include="Images\Icones\calculadora.gif" />
+    <Content Include="Images\Icones\cancelar.gif" />
+    <Content Include="Images\Icones\editar.gif" />
+    <Content Include="Images\Icones\excluir.gif" />
+    <Content Include="Images\Icones\graficos.gif" />
+    <Content Include="Images\Icones\lupa.gif" />
+    <Content Include="Images\Icones\mapeamento.gif" />
+    <Content Include="Images\Icones\pesquisar.gif" />
+    <Content Include="Images\Icones\quadrante.gif" />
+    <Content Include="Images\Icones\regras.gif" />
+    <Content Include="Images\Icones\relatorio.gif" />
+    <Content Include="Images\Icones\remover.gif" />
+    <Content Include="Images\Icones\remover_item.gif" />
+    <Content Include="Images\Icones\remover_todos.gif" />
+    <Content Include="Images\Icones\salvar.gif" />
+    <Content Include="Images\Icones\segmentar.gif" />
+    <Content Include="Images\Icones\titulo.gif" />
+    <Content Include="Importacao\Clientes.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Js\jquery-1.3.2.min.js" />
+    <Content Include="Controles\Menu.asmx" />
+    <Content Include="obj\Debug\UI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\UI.dll" />
+    <Content Include="obj\Debug\UI.pdb" />
+    <Content Include="Principal\Principal.Master" />
+    <Content Include="Relatorios\ClientesSegmento.aspx" />
+    <Content Include="Relatorios\ConfiguracaoGrafico.aspx" />
+    <Content Include="Relatorios\MatrizSaida.aspx" />
+    <Content Include="Seguranca\ManutencaoPerfil.aspx" />
+    <Content Include="Seguranca\ManutencaoUsuario.aspx" />
+    <Content Include="Seguranca\PermissaoPerfil.aspx" />
+    <Content Include="Seguranca\PermissaoUsuario.aspx" />
+    <Content Include="TemplateForm.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54807</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

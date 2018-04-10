@@ -1,0 +1,101 @@
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\UI.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\UI.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\BLL.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\VO.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\Microsoft.ApplicationBlocks.Data.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\DAL.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\BLL.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\DAL.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\VO.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\obj\Debug\ResolveAssemblyReference.cache
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\obj\Debug\UI.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\obj\Debug\UI.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\UI\bin\AjaxControlToolkit.pdb
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\UI.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\UI.pdb
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\BLL.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\VO.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\Microsoft.ApplicationBlocks.Data.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\DAL.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\AjaxControlToolkit.pdb
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\BLL.pdb
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\DAL.pdb
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\VO.pdb
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\ar\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\cs\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\de\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\es\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\fr\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\he\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\hi\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\it\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\ja\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\ko\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\nl\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\pt\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\ru\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos.Desenvolvimento\Saraiva\UI\obj\Debug\UI.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\obj\Debug\UI.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\UI.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\UI.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\BLL.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\VO.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\Microsoft.ApplicationBlocks.Data.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\DAL.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\LoreSoft.MathExpressions.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\AjaxControlToolkit.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\BLL.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\DAL.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\bin\VO.pdb
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\obj\Debug\ResolveAssemblyReference.cache
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\obj\Debug\UI.dll
+D:\TRABALHOS\Projetos.Desenvolvimento\Saraiva\Segmentacao\UI\obj\Debug\UI.pdb
+C:\Saraiva\Segmentacao\UI\bin\UI.dll
+C:\Saraiva\Segmentacao\UI\bin\UI.pdb
+C:\Saraiva\Segmentacao\UI\bin\BLL.dll
+C:\Saraiva\Segmentacao\UI\bin\VO.dll
+C:\Saraiva\Segmentacao\UI\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Saraiva\Segmentacao\UI\bin\DAL.dll
+C:\Saraiva\Segmentacao\UI\bin\LoreSoft.MathExpressions.dll
+C:\Saraiva\Segmentacao\UI\bin\AjaxControlToolkit.pdb
+C:\Saraiva\Segmentacao\UI\bin\BLL.pdb
+C:\Saraiva\Segmentacao\UI\bin\DAL.pdb
+C:\Saraiva\Segmentacao\UI\bin\VO.pdb
+C:\Saraiva\Segmentacao\UI\obj\Debug\ResolveAssemblyReference.cache
+C:\Saraiva\Segmentacao\UI\obj\Debug\UI.dll
+C:\Saraiva\Segmentacao\UI\obj\Debug\UI.pdb
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\LoreSoft.MathExpressions.dll
+D:\Projetos.Desenvolvimento\Saraiva\UI\bin\LoreSoft.MathExpressions.pdb
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\BLL.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\VO.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\DAL.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\LoreSoft.MathExpressions.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\AjaxControlToolkit.pdb
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\BLL.pdb
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\DAL.pdb
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\VO.pdb
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\obj\Debug\ResolveAssemblyReference.cache
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\obj\Debug\UI.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\obj\Debug\UI.pdb
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\UI.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\UI\bin\UI.pdb
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\UI.dll.config
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\UI.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\UI.pdb
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\BLL.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\VO.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\DAL.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\LoreSoft.MathExpressions.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\Microsoft.ApplicationBlocks.Data.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\BLL.pdb
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\VO.pdb
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\AjaxControlToolkit.pdb
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\bin\DAL.pdb
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\obj\Debug\UI.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\UI\obj\Debug\UI.pdb

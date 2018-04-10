@@ -1,0 +1,10 @@
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\VO\bin\Debug\VO.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\VO\bin\Debug\VO.pdb
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\VO\obj\Debug\ResolveAssemblyReference.cache
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\VO\obj\Debug\VO.dll
+C:\Meus documentos\Projetos\Saraiva\Segmentacao\VO\obj\Debug\VO.pdb
+D:\Documents\Projetos\Saraiva\Segmentacao\VO\bin\Debug\VO.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\VO\bin\Debug\VO.pdb
+D:\Documents\Projetos\Saraiva\Segmentacao\VO\obj\Debug\VO.csprojResolveAssemblyReference.cache
+D:\Documents\Projetos\Saraiva\Segmentacao\VO\obj\Debug\VO.dll
+D:\Documents\Projetos\Saraiva\Segmentacao\VO\obj\Debug\VO.pdb
